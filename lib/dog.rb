@@ -10,10 +10,6 @@ class Dog
     save
   end
   
-  def self.all
-    @@all
-  end
-  
   def print_all
     @@all.each do |name|
       puts name
