@@ -13,14 +13,13 @@ class Dog
   def print_all
     @@all.each do |name|
       puts name
-    end
-  end
+    end.  end
   
   def save
     @@all << self
   end
   
-  def selfclear_all
+  def self.lear_all
   @@all.clear
   end
 
